@@ -47,7 +47,7 @@ library
   build-depends:       co-log-core
   hs-source-dirs:      src
   exposed-modules:     Control.Effect.Colog
-                       Control.Carrier.Colog
+                       Control.Carrier.Colog.Reader
                        Control.Carrier.Colog.Trace
 
 executable co-log-fused-effects
